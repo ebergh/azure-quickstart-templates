@@ -75,28 +75,28 @@
       "metadata": {
         "description": "The size of the AD VM Created"
       },
-      "defaultValue": "Standard_DS2"
+      "defaultValue": "Standard_D3"
     },
     "sqlVMSize": {
       "type": "string",
       "metadata": {
         "description": "The size of the SQL VM Created"
       },
-      "defaultValue": "Standard_DS2"
+      "defaultValue": "Standard_D3"
     },
     "spVMSize": {
       "type": "string",
       "metadata": {
         "description": "The size of the VM Created"
       },
-      "defaultValue": "Standard_DS3"
+      "defaultValue": "Standard_D3"
     },
     "domainName": {
       "type": "string",
       "metadata": {
         "description": "The FQDN of the AD Domain created "
       },
-      "defaultValue": "contoso.local"
+      "defaultValue": "sonant.com"
     },
     "sqlServerServiceAccountUserName": {
       "type": "string",
@@ -205,7 +205,7 @@
       "metadata": {
         "description": "The type of the Storage Account created"
       },
-      "defaultValue": "Premium_LRS"
+      "defaultValue": "Standard_LRS"
     }
   },
   "variables": {
